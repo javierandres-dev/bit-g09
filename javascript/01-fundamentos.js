@@ -58,4 +58,13 @@ function miFuncion() {
   console.log('Pepita Pérez');
 }
 
-miFuncion();
+//miFuncion();
+
+function miFuncion1(nombre) {
+  console.log(nombre);
+}
+
+miFuncion1('Pepita Pérez');
+miFuncion1('Pepito Pérez');
+miFuncion1('Juan');
+miFuncion1('Manu');

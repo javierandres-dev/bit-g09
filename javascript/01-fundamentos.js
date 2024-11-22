@@ -7,7 +7,7 @@ en varias líneas
 */
 
 // en la siguiente línea estoy imprimiento un valor en consola
-// console.log('hola, a todos!');
+//console.log('hola, a todos!');
 
 /* VARIABLES */
 // Declaración
@@ -20,15 +20,15 @@ let nombre2a = 'pepito';
 
 // variable de tipo constante
 const miConstante = 1;
-// console.log(miConstante);
+//console.log(miConstante);
 
 // automática
 // miVariableAutomatica;
 
 let miVariable = 'hola';
-// console.log(miVariable);
+//console.log(miVariable);
 miVariable = 'hello';
-// console.log(miVariable);
+//console.log(miVariable);
 
 /* TIPOS DE DATO PRIMITIVOS */
 miVariable = 'Hola, otra vez!';
@@ -64,7 +64,12 @@ function miFuncion1(nombre) {
   console.log(nombre);
 }
 
-miFuncion1('Pepita Pérez');
-miFuncion1('Pepito Pérez');
-miFuncion1('Juan');
-miFuncion1('Manu');
+//miFuncion1('Pepita Pérez');
+//miFuncion1('Pepito Pérez');
+
+function miFuncion2(apellido = 'Pérez') {
+  console.log(apellido);
+}
+
+miFuncion2('Álvarez');
+miFuncion2();

@@ -51,4 +51,11 @@ miVariable = true;
 miVariable = false;
 
 miVariable = undefined;
-console.log(miVariable);
+//console.log(miVariable);
+
+/* FUNCIONES */
+function miFuncion() {
+  console.log('Pepita Pérez');
+}
+
+miFuncion();

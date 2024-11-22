@@ -8,3 +8,5 @@ edad, luego imprimir en consola: Hola, soy ____ y tengo ____ años.
 2. Crear una función llamada presentarme, dentro crear una variable y asignarle
 su nombre, crear una constante y asignarle su edad, luego imprimir en consola:
 Hola, soy ____ y tengo ____ años.
+3. Crear una función que reciba un nombre y edad por parámetros, luego imprimir
+en consola: Hola, soy ____ y tengo ____ años.

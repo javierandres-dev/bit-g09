@@ -71,5 +71,36 @@ function miFuncion2(apellido = 'Pérez') {
   console.log(apellido);
 }
 
-miFuncion2('Álvarez');
-miFuncion2();
+//miFuncion2('Álvarez');
+//miFuncion2();
+
+function miFuncion3() {
+  return 'cadena de texto';
+}
+
+let valorRetornado = miFuncion3();
+//console.log(valorRetornado);
+
+/* OPERADORES */
+// aritméticos
+//console.log(8 + 4);
+//console.log(8 - 4);
+//console.log(8 * 4);
+//console.log(8 / 4);
+//console.log(8 % 4);
+//console.log(10 % 3);
+//console.log(2 ** 3);
+
+// PEMDAS
+
+// asignación
+miVariable = true;
+
+// concatenación
+//console.log('Hola, ' + '¿cómo estás?');
+//console.log('8' + '4');
+//console.log(8 + '4');
+//console.log('8' + 4);
+
+// llamado
+//console.log();

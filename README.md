@@ -13,3 +13,16 @@ en consola: Hola, soy ____ y tengo ____ años.
 4. Crear una función que reciba un nombre, un apellido y una edad por parámetros,
 la función debe imprimir en consola: Su nombre es ____ y usted tiene ____ años,
 si no se recibe la edad imprimir: Su nombre es ____ y usted tiene 100 años.
+5. Crear una función que reciba dos párametros, un nombre y un apellido y retorne
+el nombre completo, primero el apellido y luego el nombre.
+6. Crear una función que reciba cuatro párametros, un nombre, una prenda, un
+color y una cantidad y retorne: ____ tiene __ ____ de color ____.
+Ej entrada: pepita, camisas, azul, 2
+Ej salida: Pepita tiene 2 camisas de color azul.
+7. Crear una función para saludar, si la función recibe un nombre,
+imprimir por consola: Hola, ____!
+Si la función no recibe un nombre, imprimir: Hola, desconocido!
+8. Crear seis funciones, (sumar, restar, multiplicar, dividir, módulo, potencia),
+debe recibir 2 números e imprimir el resultado así:
+Ej entrada: 8, 4
+Ej salida: 8 + 4 = 12

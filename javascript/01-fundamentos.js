@@ -91,7 +91,7 @@ let valorRetornado = miFuncion3();
 //console.log(10 % 3);
 //console.log(2 ** 3);
 
-// PEMDAS
+// pemdas
 
 // asignación
 miVariable = true;
@@ -104,3 +104,19 @@ miVariable = true;
 
 // llamado
 //console.log();
+
+// comparasión
+//console.log('hola' == 'hola');
+//console.log('hola' == 'hello');
+//console.log(8 == 8);
+//console.log(8 == '8');
+//console.log(8 === '8');
+//console.log('hola' === 'hola');
+//console.log('hola' === 'hello');
+//console.log(8 === 8);
+
+/* CONTROL DE FLUJO */
+// condicionales
+if (true) {
+  //console.log('TRUE - si se cumple la condición');
+}

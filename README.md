@@ -44,3 +44,10 @@ cada función debe recibir 2 números y retornar un resultado según corresponda
 debe imprimir el resultado.
 Ej entrada: suma, 8, 4
 Ej salida: 8 + 4 = 12
+10. Crear una función que reciba 4 números, mostrar el resultado de: a/b*(c+d)
+11. Crear una función que reciba 2 números, imprimir el mayor.
+12. Crear una función que reciba 1 número, imprimir si es negativo o si es positivo.
+13. Crear una función que reciba 2 números, imprimir si el primer número es
+divisible por el segundo.
+14. Crear una función que reciba 1 número, imprimir si es negativo o si es
+positivo o si es cero.

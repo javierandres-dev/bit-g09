@@ -91,7 +91,11 @@ let valorRetornado = miFuncion3();
 //console.log(10 % 3);
 //console.log(2 ** 3);
 
-// pemdas
+// Precedencia de operadores PEMDAS
+// Paréntesis Exponentes Multiplicación División Adición Sustracción
+
+const operacion = 12 / 3 + 2 * 3 - 1; // (12 / 3) + (2 * 3) - 1 = 4 + 6 - 1 = 9
+//console.log(operacion);
 
 // asignación
 miVariable = true;
@@ -114,9 +118,23 @@ miVariable = true;
 //console.log('hola' === 'hola');
 //console.log('hola' === 'hello');
 //console.log(8 === 8);
+//console.log(8 != 4);
+//console.log(8 != 8);
+//console.log(8 != '8');
+//console.log(8 !== '8');
+//console.log(8 > 4);
+//console.log(8 < 4);
+//console.log(8 >= 4);
+//console.log(8 <= 4);
 
 /* CONTROL DE FLUJO */
 // condicionales
 if (true) {
   //console.log('TRUE - si se cumple la condición');
+}
+
+if (false) {
+  //console.log('TRUE - si se cumple la condición');
+} else {
+  //console.log('FALSE - no se cumple la condición');
 }

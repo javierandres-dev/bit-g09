@@ -7,11 +7,17 @@
 - Crear respositorio con su mismo nombre de usuario
 - Archivo README.md
 - Fecha de entrega: Viernes 29 de Nov 2024
-2. Desafíos JavaScript
+2. Crear una página web tributo
+- Crear repositorio llamado: bit-pagina-tributo
+- Crear un archivo en la raíz del repositorio llamado: index.html
+- Archivo README.md
+- No poner estilos (CSS)
+- Fecha de entrega: PENDIENTE
+3. Desafíos JavaScript
 - Crear repositorio llamado: bit-desafios-javascript
 - Crear un archivo script por cada desafío llamado: scriptN.js
 - Archivo README.md
-- Fecha de entrega: Viernes 29 de Nov 2024
+- Fecha de entrega: PENDIENTE
 
 ## Desafíos JavaScript
 1. Crear una variable y asignarle su nombre, crear una constante y asignarle su

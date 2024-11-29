@@ -1,0 +1,51 @@
+/* Esto es un comentario en CSS */
+
+/* SELECTORES */
+/* elemento */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* clase */
+.caja-roja {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.caja-azul {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+/* COLORES */
+.color-keyword{
+    color:magenta;
+}
+.color-hexadecimal{
+    width: 300px;
+    height: 100px;
+    background-color:#000000;
+    color: #ffffff;
+}
+
+/* TEXTOS */
+.texto{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-style: italic;
+font-weight: 900;
+}
+.fuente-externa{
+    font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}

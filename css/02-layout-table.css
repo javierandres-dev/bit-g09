@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  border: 2px solid black;
+  width: 1024px;
+  height: 512px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabla-madre {
+  border: 2px solid purple;
+  width: 100%;
+}
+
+.header,
+.nav,
+.main,
+.aside,
+.footer {
+  text-align: center;
+}
+
+.header {
+  border: 2px solid green;
+  height: 100px;
+}
+
+.nav {
+  border: 2px solid orangered;
+  height: 42px;
+}
+
+.tabla-hija {
+  border: 2px solid aqua;
+  width: 100%;
+}
+
+.main {
+  border: 2px solid blue;
+  width: 75%;
+  height: 310px;
+}
+
+.aside {
+  border: 2px solid red;
+  width: 25%;
+  height: 310px;
+}
+
+.footer {
+  border: 2px solid brown;
+  height: 30px;
+}

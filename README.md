@@ -6,13 +6,12 @@
 1. Perfil de GitHub
 - Crear respositorio con su mismo nombre de usuario
 - Archivo README.md
-- Fecha de entrega: Viernes 29 de Nov 2024
+- Fecha de entrega: Viernes 29 de Nov de 2024
 2. Crear una página web tributo
 - Crear repositorio llamado: bit-pagina-tributo
 - Crear un archivo en la raíz del repositorio llamado: index.html
 - Archivo README.md
-- No poner estilos (CSS)
-- Fecha de entrega: PENDIENTE
+- Fecha de entrega: Lunes 9 de Dic de 2024
 3. Desafíos JavaScript
 - Crear repositorio llamado: bit-desafios-javascript
 - Crear un archivo script por cada desafío llamado: scriptN.js
@@ -57,20 +56,3 @@ Ej salida: 8 + 4 = 12
 divisible por el segundo.
 14. Crear una función que reciba 1 número, imprimir si es negativo o si es
 positivo o si es cero.
-
-
-
-
-
-
-
-
-
-
-CAJA PADRE
-- tamaño: 500px x 500px
-- borde: 20px rojo
-
-CAJA HIJA
-- tamaño: 450px x 450px
-- borde: 20px azul

@@ -17,3 +17,7 @@ párrafo normal
 - Primer elemento
 - Segundo elemento
 - Tercer elemento
+
+[texto enlace](ruta enlace)
+
+![texto imagen](ruta imagen)

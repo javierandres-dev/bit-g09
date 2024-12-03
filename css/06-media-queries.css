@@ -1,0 +1,51 @@
+.title {
+  background-color: yellow;
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.phone {
+  background-color: yellow;
+}
+
+.tablet {
+  background-color: orange;
+  display: none;
+}
+
+.computer {
+  background-color: red;
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 767px) {
+  .title {
+    background-color: orange;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .title {
+    background-color: red;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .computer {
+    display: block;
+  }
+}

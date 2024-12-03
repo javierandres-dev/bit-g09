@@ -10,7 +10,9 @@
 2. Crear una página web tributo
 - Crear repositorio llamado: bit-pagina-tributo
 - Crear un archivo en la raíz del repositorio llamado: index.html
+- Enlace de una hoja de estilos externa
 - Archivo README.md
+- Usar etiquetas semánticas de estructura, subestructura y contenido
 - Fecha de entrega: Lunes 9 de Dic de 2024
 3. Desafíos JavaScript
 - Crear repositorio llamado: bit-desafios-javascript

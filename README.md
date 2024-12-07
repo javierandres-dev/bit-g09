@@ -13,12 +13,12 @@
 - Enlace de una hoja de estilos externa
 - Archivo README.md
 - Usar etiquetas semánticas de estructura, subestructura y contenido
-- Fecha de entrega: Lunes 9 de Dic de 2024
+- Fecha de entrega: Miércoles 11 de Dic de 2024
 3. Desafíos JavaScript
 - Crear repositorio llamado: bit-desafios-javascript
 - Crear un archivo script por cada desafío llamado: scriptN.js
 - Archivo README.md
-- Fecha de entrega: PENDIENTE
+- Fecha de entrega: Miércoles 18 de Dic de 2024
 
 ## Desafíos JavaScript
 1. Crear una variable y asignarle su nombre, crear una constante y asignarle su

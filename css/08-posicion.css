@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+.madre {
+  background-color: pink;
+  border: 1px solid blue;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.hija {
+  width: 100px;
+  height: 100px;
+}
+
+.uno {
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.dos {
+  background-color: yellowgreen;
+  position: fixed;
+  top: 20px;
+  left: 250px;
+}
+
+.tres {
+  background-color: greenyellow;
+  position: sticky;
+  top: 10px;
+  left: 120px;
+}
+
+.cuatro {
+  background-color: orange;
+  position: relative;
+  z-index: 1;
+}
+
+.cinco {
+  background-color: orangered;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

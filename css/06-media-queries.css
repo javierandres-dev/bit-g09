@@ -21,8 +21,8 @@
   display: none;
 }
 
-/* MEDIA QUERIES */
-@media screen and (min-width: 767px) {
+/* MEDIA QUERIES mobile first */
+@media screen and (min-width: 768px) {
   .title {
     background-color: orange;
   }
@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .title {
     background-color: red;
   }

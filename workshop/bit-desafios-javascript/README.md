@@ -1,4 +1,9 @@
 # bit-desafios-javascript
+- Crear repositorio llamado: bit-desafios-javascript
+- Crear un archivo script por cada desafío llamado: script<#desafío>.js
+- Archivo README.md
+- Fecha de entrega: Jueves 19 de Dic de 2024
+
 ## Desafíos JavaScript
 1. Crear una variable y asignarle su nombre, crear una constante y asignarle su
 edad, luego imprimir en consola: Hola, soy ____ y tengo ____ años.

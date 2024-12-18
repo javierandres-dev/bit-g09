@@ -40,6 +40,12 @@ miVariable = '1';
 miVariable = 'true';
 miVariable = '';
 
+// escape de caracteres (string)
+miVariable = 'c:\\windows';
+miVariable = 'primera línea de texto\nsegunda línea de texto';
+miVariable = 'Precio:\t$9.99';
+console.log(miVariable);
+
 miVariable = 0;
 miVariable = 10;
 miVariable = 9.5;

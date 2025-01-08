@@ -19,3 +19,10 @@
 - Crear un archivo script por cada desafío llamado: script<#desafío>.js
 - Archivo README.md
 - Fecha de entrega: Jueves 19 de Dic de 2024
+4. Crear un sitio web
+- Crear repositorio llamado: bit-pagina-equipo
+- Crear un archivo en la raíz del repositorio llamado: index.html
+- Enlace de una hoja de estilos externa
+- Archivo README.md
+- Usar etiquetas semánticas de estructura, subestructura y contenido
+- Fecha de entrega: Lunes 13 de Ene de 2024

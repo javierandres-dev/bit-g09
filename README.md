@@ -25,4 +25,5 @@
 - Enlace de una hoja de estilos externa
 - Archivo README.md
 - Usar etiquetas semánticas de estructura, subestructura y contenido
+- Responsivo (375px | 768px | 1024px)
 - Fecha de entrega: Lunes 13 de Ene de 2024

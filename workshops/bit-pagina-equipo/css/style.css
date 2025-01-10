@@ -1,0 +1,41 @@
+/*
+white: #FAF9F6
+black: 	#444444
+primary: #c800c8
+secondary: #f800f8
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+.space-mono-regular {
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.nothing-you-could-do-regular {
+  font-family: "Nothing You Could Do", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/

@@ -30,3 +30,6 @@ https://github.com/nicolasmontielX
 
 Repositorio de apoyo
 https://github.com/javierandres-dev/bit-g09
+
+Javier Andrés
+https://github.com/javierandres-dev

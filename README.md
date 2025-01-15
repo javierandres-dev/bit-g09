@@ -27,3 +27,12 @@
 - Usar etiquetas semánticas de estructura, subestructura y contenido
 - Responsivo (375px | 768px | 1024px)
 - Fecha de entrega: Lunes 13 de Ene de 2024
+5. Crear un sitio web
+- Tema libre
+- Crear repositorio llamado: bit-sitio-web
+- Crear un archivo en la raíz del repositorio llamado: index.html
+- Solo debe utilizar Bootstrap (No usar hoja de estilos propia)
+- Archivo README.md
+- Usar etiquetas semánticas de estructura, subestructura y contenido
+- Responsivo (375px | 768px | 1024px)
+- Fecha de entrega: Viernes 17 de Ene de 2025

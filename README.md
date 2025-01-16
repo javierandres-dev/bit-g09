@@ -31,7 +31,7 @@
 - Tema libre
 - Crear repositorio llamado: bit-sitio-web
 - Crear un archivo en la raíz del repositorio llamado: index.html
-- Solo debe utilizar Bootstrap (No usar hoja de estilos propia)
+- Debe utilizar Bootstrap (También puede usar hoja de estilos propia - opcional)
 - Archivo README.md
 - Usar etiquetas semánticas de estructura, subestructura y contenido
 - Responsivo (375px | 768px | 1024px)

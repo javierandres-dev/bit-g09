@@ -35,4 +35,4 @@
 - Archivo README.md
 - Usar etiquetas semánticas de estructura, subestructura y contenido
 - Responsivo (375px | 768px | 1024px)
-- Fecha de entrega: Viernes 17 de Ene de 2025
+- Fecha de entrega: Lunes 20 de Ene de 2025

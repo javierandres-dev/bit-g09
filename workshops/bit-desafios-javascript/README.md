@@ -2,9 +2,10 @@
 - Crear repositorio llamado: bit-desafios-javascript
 - Crear un archivo script por cada desafío llamado: script<#desafío>.js
 - Archivo README.md
-- Fecha de entrega: Jueves 19 de Dic de 2024
+- Fecha de entrega: Jueves 19 de Dic de 2024 (Primer versión 1..14)
 
 ## Desafíos JavaScript
+*Primer versión*
 1. Crear una variable y asignarle su nombre, crear una constante y asignarle su
 edad, luego imprimir en consola: Hola, soy ____ y tengo ____ años.
 2. Crear una función llamada presentarme, dentro crear una variable y asignarle
@@ -42,3 +43,12 @@ Ej salida: 8 + 4 = 12
 divisible por el segundo.
 14. Crear una función que reciba 1 número, imprimir si es negativo o si es
 positivo o si es cero.
+*Segunda versión*
+15. Crear un archivo HTML y enlazarlo con su respectivo CSS y JS.
+16. Solicitar nombre y apellido al usuario y mostrarlos en una ventana emergente.
+17. Solicitar nombre y edad al usuario y mostrar en una ventana emergente el
+mensaje: "Hola, ... tienes ... años."
+18. Solicitar primero el nombre, luego solicitar el apellido y por
+último solicitar la edad al usuario, mostrar en la interfaz de usuario el mensaje:
+Ej entrada: Pepita Pérez 16
+Ej salida: Pérez Pepita tiene 16 años.

@@ -44,7 +44,7 @@ divisible por el segundo.
 14. Crear una función que reciba 1 número, imprimir si es negativo o si es
 positivo o si es cero.
 *Segunda versión*
-15. Crear un archivo HTML y enlazarlo con su respectivo CSS y JS.
+15. Crear un archivo HTML y enlazarlo con su respectivo CSS y JavaScript.
 16. Solicitar nombre y apellido al usuario y mostrarlos en una ventana emergente.
 17. Solicitar nombre y edad al usuario y mostrar en una ventana emergente el
 mensaje: "Hola, ... tienes ... años."
@@ -52,3 +52,19 @@ mensaje: "Hola, ... tienes ... años."
 último solicitar la edad al usuario, mostrar en la interfaz de usuario el mensaje:
 Ej entrada: Pepita Pérez 16
 Ej salida: Pérez Pepita tiene 16 años.
+19. Solicitar un nombre al usuario y:
+- Mostrar en una ventana emergente el tipo de dato ingresado entre comillas sencillas
+- Mostrar en la interfaz de usuario el nombre ingresado entre comillas dobles
+Ej entrada: Pepita
+Ej salida:
+- El tipo de dato ingresado es: 'string'
+- El valor ingresado es: "Pepita"
+20. Solicitar al usuario un nombre, una edad y que responda si está activo o no
+- Mostrar en la consola el tipo de dato ingresado por cada entrada
+- Mostrar en la interfaz de usuario el nombre ingresado entre comillas sencillas
+- Mostrar en una ventana emergente si está autorizado o no entre comillas dobles
+Ej entrada: Pepita 20 si
+Ej salida:
+- El tipo de dato ingresado para nombre es: 'string' ...
+- El nombre ingresado es: 'Pepita'
+- "Si" está autorizado

@@ -117,3 +117,20 @@ if (valor) {
 } else {
   console.log('El valor el FALSY');
 } */
+
+const valor = 'abc';
+
+switch (valor) {
+  case 'a':
+    console.log("es 'a'");
+    break;
+  case 'b':
+    console.log("es 'b'");
+    break;
+  case 'c':
+    console.log("es 'c'");
+    break;
+  default:
+    console.log("No es ni 'a' ni 'b' ni 'c'");
+    break;
+}

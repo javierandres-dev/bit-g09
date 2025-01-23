@@ -145,3 +145,20 @@ if (false) {
 } else {
   //console.log('FALSE - no se cumple la condición');
 }
+
+const valor = 'abc';
+
+switch (valor) {
+  case 'a':
+    console.log("es 'a'");
+    break;
+  case 'b':
+    console.log("es 'b'");
+    break;
+  case 'c':
+    console.log("es 'c'");
+    break;
+  default:
+    console.log("No es ni 'a' ni 'b' ni 'c'");
+    break;
+}

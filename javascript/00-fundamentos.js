@@ -52,6 +52,7 @@ miVariable = 9.5;
 miVariable = 0xff;
 miVariable = 123e5;
 miVariable = -10;
+miVariable = NaN;
 
 miVariable = true;
 miVariable = false;

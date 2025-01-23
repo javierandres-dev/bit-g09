@@ -70,3 +70,10 @@ Ej salida:
 - "Si" está autorizado
 21. Solicitar al usuario que ingrese tres números, mostrarle al usuario el
 resultado de las cuatro operaciones aritmeticas básicas.
+22. Solicitar que el usuario ingrese un texto (cualquier) y mostrarle al usuario
+el texto ingresado entre comillas sencillas.  Si el usuario no ingresa un texto
+mostrarle una alerta indicando su error.
+23. Solicitar que el usuario ingrese un nombre y una contraseña, si el usuario
+no ingresa alguno de los datos mostrar una alerta con el error, si la contraseña
+es diferente de "123ABC" mostrar acceso denegado de otra manera mostrar un
+mensaje de bienvenida saludando al usuario.

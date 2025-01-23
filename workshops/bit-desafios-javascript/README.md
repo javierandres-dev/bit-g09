@@ -68,3 +68,5 @@ Ej salida:
 - El tipo de dato ingresado para nombre es: 'string' ...
 - El nombre ingresado es: 'Pepita'
 - "Si" está autorizado
+21. Solicitar al usuario que ingrese tres números, mostrarle al usuario el
+resultado de las cuatro operaciones aritmeticas básicas.

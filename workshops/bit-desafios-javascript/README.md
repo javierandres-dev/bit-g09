@@ -77,3 +77,26 @@ mostrarle una alerta indicando su error.
 no ingresa alguno de los datos mostrar una alerta con el error, si la contraseña
 es diferente de "123ABC" mostrar acceso denegado de otra manera mostrar un
 mensaje de bienvenida saludando al usuario.
+24. Solicitar al usuario un código de acceso, si el código es:
+- AAA: mostrar acceso a administrador
+- BBB: mostrar acceso a profesor
+- CCC: mostrar acceso a estudiante
+- DDD: mostrar acceso a acudiente
+De otro modo informar que no tiene un código válido.
+25. Solicitar al usuario un número entero positivo, mostrar al usuario los
+números desde cero hasta el número ingresado.
+26. Solicitar al usuario un número entero positivo, mostrar al usuario los
+números desde cero hasta el número ingresado cada número en una línea.
+27. Solicitar al usuario un número entero positivo, mostrar al usuario los
+números desde 1 hasta el número ingresado menos 1 cada número debe estar
+separado por una coma y un espacio, el número final debe terminar con punto.
+Ej entrada: 5
+Ej salida: 1, 2, 3, 4.
+28. Solicitar al usuario un número entero positivo, mostrar al usuario las
+tablas de multiplicar desde cero hasta el número ingresado.
+Ej entrada: 1
+Ej salida:
+0 x 0 = 0
+0 x 1 = 0
+1 x 0 = 0
+1 x 1 = 1

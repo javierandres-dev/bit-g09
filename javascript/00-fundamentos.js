@@ -146,7 +146,7 @@ if (false) {
   //console.log('FALSE - no se cumple la condición');
 }
 
-const valor = 'abc';
+/* const valor = 'abc';
 
 switch (valor) {
   case 'a':
@@ -161,4 +161,17 @@ switch (valor) {
   default:
     console.log("No es ni 'a' ni 'b' ni 'c'");
     break;
-}
+} */
+
+// Ciclos | Loops | Bucles
+// contador
+/* for (let contador = 0; contador < 3; contador++) {
+  console.log(contador);
+} */
+
+/* let contador = 0;
+
+while(contador < 3){
+  console.log(contador);
+  contador++;
+} */

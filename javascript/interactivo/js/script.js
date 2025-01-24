@@ -118,19 +118,30 @@ if (valor) {
   console.log('El valor el FALSY');
 } */
 
-const valor = 'abc';
+/* const valor = '100';
 
 switch (valor) {
-  case 'a':
+  case 100:
     console.log("es 'a'");
     break;
-  case 'b':
+  case 200:
     console.log("es 'b'");
     break;
-  case 'c':
+  case 300:
     console.log("es 'c'");
     break;
   default:
     console.log("No es ni 'a' ni 'b' ni 'c'");
     break;
+} */
+
+/* for (let contador = 0; contador < 3; contador++) {
+  console.log(contador);
+} */
+
+let contador = 0;
+
+while (contador < 3) {
+  console.log(contador);
+  contador++;
 }

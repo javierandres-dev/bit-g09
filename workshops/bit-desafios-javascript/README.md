@@ -100,3 +100,5 @@ Ej salida:
 0 x 1 = 0
 1 x 0 = 0
 1 x 1 = 1
+29. Crear una constante y asignarle un número entre 1 y 9.  Solicitar al usuario
+que adivine el número, permitir máximo 3 intentos.

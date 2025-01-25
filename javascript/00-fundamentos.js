@@ -97,6 +97,8 @@ let valorRetornado = miFuncion3();
 //console.log(8 % 4);
 //console.log(10 % 3);
 //console.log(2 ** 3);
+// ++
+// --
 
 // Precedencia de operadores PEMDAS
 // Paréntesis Exponentes Multiplicación División Adición Sustracción
@@ -134,17 +136,22 @@ miVariable = true;
 //console.log(8 >= 4);
 //console.log(8 <= 4);
 
+// Lógicos
+// &&
+// ||
+// !
+
 /* CONTROL DE FLUJO */
 // condicionales
-if (true) {
-  //console.log('TRUE - si se cumple la condición');
-}
+/* if (true) {
+  console.log('TRUE - si se cumple la condición');
+} */
 
-if (false) {
-  //console.log('TRUE - si se cumple la condición');
+/* if (false) {
+  console.log('TRUE - si se cumple la condición');
 } else {
-  //console.log('FALSE - no se cumple la condición');
-}
+  console.log('FALSE - no se cumple la condición');
+} */
 
 /* const valor = 'abc';
 
@@ -175,3 +182,22 @@ while(contador < 3){
   console.log(contador);
   contador++;
 } */
+
+// centinela
+/* let centinela = true;
+
+while (centinela === true) {
+  centinela = false;
+  console.log('ejecutando ciclo while con centinela');
+} */
+
+/* let contador = 0;
+
+do {
+  console.log('ejecutando ciclo do..while');
+  contador++;
+} while (contador < 3); */
+
+/* TIPOS DE DATO NO PRIMITIVOS */
+// arreglos, arrays, vectores, listas, matriz
+/* const arreglo = ['abc', 100, true, undefined, null, {}]; */

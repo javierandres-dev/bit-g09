@@ -110,6 +110,8 @@ console.log('');
 console.log(undefined);
 console.log(null); */
 
+/* CONDICIONALES */
+
 /* const valor = null;
 
 if (valor) {
@@ -135,13 +137,57 @@ switch (valor) {
     break;
 } */
 
+/* CICLOS */
+
 /* for (let contador = 0; contador < 3; contador++) {
   console.log(contador);
 } */
 
-let contador = 0;
+/* let contador = 0;
 
 while (contador < 3) {
   console.log(contador);
   contador++;
+} */
+
+/* let respuesta = '';
+
+while (respuesta != 'no') {
+  respuesta = prompt('¿Quiere continuar?');
+  console.log('ejecutando ciclo while con centinela');
+} */
+
+/* let contador = 0;
+
+do {
+  console.log('ejecutando ciclo do..while');
+  contador++;
+} while (contador < 3); */
+
+/* OPERADORES */
+// Lógicos
+/* const num1 = -1;
+const num2 = -2;
+
+if (num1 > 0 && num2 > 0) {
+  console.log('&& los dos valores son TRUE.');
 }
+
+if (num1 > 0 || num2 > 0) {
+  console.log('|| al menos uno de los dos valores es TRUE.');
+}
+
+const verdadero = false;
+if (!verdadero) {
+  console.log('es FALSE');
+} */
+
+/* TIPOS DE DATO NO PRIMITIVOS */
+// arreglos, arrays, vectores, listas, matriz
+/* let estudiantes = [];
+estudiantes = ['Alexandra', 'Manuela', 'Valentina'];
+console.log(estudiantes);
+console.log(estudiantes[2]);
+console.log(estudiantes.length);
+estudiantes[1] = 'Manuela Álvarez';
+console.log(estudiantes); */

@@ -186,8 +186,32 @@ if (!verdadero) {
 // arreglos, arrays, vectores, listas, matriz
 /* let estudiantes = [];
 estudiantes = ['Alexandra', 'Manuela', 'Valentina'];
-console.log(estudiantes);
 console.log(estudiantes[2]);
-console.log(estudiantes.length);
 estudiantes[1] = 'Manuela Álvarez';
-console.log(estudiantes); */
+console.log(estudiantes.length);
+console.log(estudiantes);
+console.log(estudiantes[0]);
+console.log(estudiantes[1]);
+console.log(estudiantes[2]);
+for (let i = 0; i < estudiantes.length; i++) {
+  console.log(estudiantes[i]);
+} */
+
+// objetos, objetos literales
+/* const estudiante = {
+  edad: 13,
+  nombre: 'Fulanito',
+  apellido: 'De Tal',
+  curso: 8,
+  graduado: false,
+  saludar: () => {
+    console.log('Hola, soy Fulanito!');
+    return 'este es el valor retornado';
+  },
+};
+console.log(estudiante);
+console.log(estudiante.nombre);
+console.log(estudiante['apellido']);
+console.log(estudiante.saludar());
+estudiante.saludar();
+estudiante.generoBiologico = 'Masculino'; */

@@ -200,4 +200,21 @@ do {
 
 /* TIPOS DE DATO NO PRIMITIVOS */
 // arreglos, arrays, vectores, listas, matriz
-/* const arreglo = ['abc', 100, true, undefined, null, {}]; */
+/* const arreglo = ['abc', 100, true, undefined, null, [], {}];
+console.log(arreglo);
+console.log(arreglo.length);
+console.log(arreglo[0]);
+console.log(arreglo[1]);
+console.log(arreglo[2]);
+for (let i = 0; i < arreglo.length; i++) {
+  console.log(arreglo[i]);
+} */
+
+// objetos, objetos literales
+/* const objeto = {
+  llave: 'valor',
+  propiedad: 'valor de la propiedad',
+  metodo: () => {
+    console.log('hola, soy un método');
+  },
+}; */

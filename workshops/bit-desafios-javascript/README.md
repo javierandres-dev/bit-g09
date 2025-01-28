@@ -102,3 +102,7 @@ Ej salida:
 1 x 1 = 1
 29. Crear una constante y asignarle un número entre 1 y 9.  Solicitar al usuario
 que adivine el número, permitir máximo 3 intentos.
+30. Solicitar al usuario la cantidad de materias a ingresar, solicitar el nombre
+de cada materia y mostrar al final los nombres de todas las materias ingresadas.
+31. Solicitar al usuario los datos necesarios para un registro médico, mostrar
+en la interfaz de usuario un resumen de los datos ingresados.

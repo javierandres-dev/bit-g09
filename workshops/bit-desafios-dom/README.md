@@ -8,3 +8,7 @@
 0. Crear una estructura básica (HTML, CSS, JavaScript)
 1. HTML con únicamente un div, replicar la muestra de la manipulación del DOM
 explicada en clase, Debe mostrar su nombre completo con el texto a color.
+2. Crear un formulario para que el usuario ingrese: usuario y contraseña, al
+hacer click al botón de enviar mostrarle al usuario una ventana emergente
+informando que se esta procesando la solicitud, almacenar los datos ingresados
+en variables, imprimir por consola los valores de las variables.

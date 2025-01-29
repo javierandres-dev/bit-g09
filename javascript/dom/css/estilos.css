@@ -2,7 +2,49 @@ body {
   background-color: grey;
 }
 
+img {
+  width: 100%;
+}
+
 .texto-azul {
   font-size: 2rem;
   color: blue;
+}
+
+.bombillo {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  width: 100px;
+  padding: 1rem 0;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.btn-on {
+  background-color: green;
+}
+
+.btn-off {
+  background-color: red;
+}
+
+.contador {
+  text-align: center;
+}
+
+.txt {
+  font-size: 2rem;
+}
+
+.txt-on {
+  color: green;
+}
+
+.txt-off {
+  color: red;
 }

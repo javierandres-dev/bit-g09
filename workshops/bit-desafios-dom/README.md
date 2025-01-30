@@ -12,3 +12,5 @@ explicada en clase, Debe mostrar su nombre completo con el texto a color.
 hacer click al botón de enviar mostrarle al usuario una ventana emergente
 informando que se esta procesando la solicitud, almacenar los datos ingresados
 en variables, imprimir por consola los valores de las variables.
+3. Con base en el desafío #2 => La contraseña debe tener 10 caracteres, mostrar
+una alerta si no se cumple esta condición.

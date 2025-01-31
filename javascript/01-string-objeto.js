@@ -1,3 +1,4 @@
+'use strict';
 /* String */
 let miString = '    javascript    ';
 miString = miString.trim();

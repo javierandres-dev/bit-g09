@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <title>IG</title>
+  </head>
+  <body>
+    <h1 class="text-center my-5">Test Identidad de Género</h1>
+    <main class="container">
+      <!-- Modal -->
+      <section>
+        <div
+          class="modal fade"
+          id="avisoModal"
+          tabindex="-1"
+          aria-labelledby="avisoModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="avisoModalLabel">
+                  Para hacer el test IG debes ser mayor de 21 años
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body display-6 text-center">
+                ¿Eres mayor de 21 años?
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                  onclick="manejarNo()"
+                >
+                  No
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="manejarSi()"
+                >
+                  Si
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- No es menor de 21 años -->
+      <section id="no" class="d-none">
+        <p>Lo sentimos, este test solo es para mayores de 21 años.</p>
+      </section>
+      <!-- Si es mayor de 21 años -->
+      <section id="si" class="d-none">
+        <form id="formularioTest">
+          <div class="mb-3">
+            <label class="form-label"
+              >Por favor seleccione el sexo biológico que le fue asignado al
+              nacer</label
+            >
+            <select
+              class="form-select"
+              aria-label="selector sexo"
+              name="sexoBiologico"
+              id="0"
+            >
+              <option value="0" selected disabled>Sexo Biológico</option>
+              <option value="mujer">Femenino</option>
+              <option value="hombre">Masculino</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label"
+              >¿Ha sentido atracción física y/o romantica por otra
+              persona?</label
+            >
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="esAsexual"
+                value="false"
+                id="1"
+                disabled
+              />
+              <label class="form-check-label" for="1"> Si </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="esAsexual"
+                value="true"
+                id="2"
+                disabled
+              />
+              <label class="form-check-label" for="2"> No </label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label"
+              >Seleccione el/los sexo(s) biológico(s) por el/los que ha sentido
+              atracción física y/o romantica</label
+            >
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="leGustaMujer"
+                value="true"
+                id="3"
+                disabled
+              />
+              <label class="form-check-label" for="3"> Mujer </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="leGustaHombre"
+                value="true"
+                id="4"
+                disabled
+              />
+              <label class="form-check-label" for="4"> Hombre </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Responder</button>
+        </form>
+      </section>
+      <!-- Resultado -->
+      <section id="resultado" class="d-none">
+        <div class="alert alert-info" role="alert">
+          <p id="textoResultado"></p>
+          <button type="button" class="btn btn-link" id="btnReiniciar">
+            Reiniciar
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

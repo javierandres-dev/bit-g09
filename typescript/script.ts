@@ -69,15 +69,15 @@ console.log(miTupla); */
 /* let miObject: object;
 miObject = {};
 console.log(miObject); */
-let objPersona1: object;
+/* let objPersona1: object;
 objPersona1 = {};
 objPersona1 = {
   nombre: 'pepita',
   usuario: 'pepa',
   contrasenia: '123',
 };
-console.log(objPersona1);
-let objPersona2: {
+console.log(objPersona1); */
+/* let objPersona2: {
   usuario: string;
   contrasenia: string;
   edad: number;
@@ -90,4 +90,76 @@ objPersona2 = {
   edad: 30,
   activo: true,
 };
-console.log(objPersona2);
+console.log(objPersona2); */
+
+// enums
+/* enum Perfiles {
+  Administrador = 'a100',
+  Vendedor = 'b101',
+  Cliente = 'c102',
+}
+console.log(Perfiles);
+console.log(Perfiles.Vendedor); */
+
+// alias
+/* type NombreEmpleado = string;
+type EdadEmpleado = number;
+type ActivoEmpleado = boolean;
+
+type Empleado = {
+  nombre: NombreEmpleado;
+  edad: EdadEmpleado;
+  activo: ActivoEmpleado;
+};
+
+let miEmpleado: Empleado;
+miEmpleado = {
+  nombre: 'pepita',
+  edad: 32,
+  activo: true,
+};
+console.log(miEmpleado); */
+
+// interfaces
+/* interface Vendedor {
+  id: number;
+  nombre: string;
+  activo: boolean;
+  perfil: string;
+}
+
+let miVendedor: Vendedor = {
+  id: 1,
+  nombre: 'pepita',
+  activo: true,
+  perfil: 'b101',
+};
+console.log(miVendedor); */
+
+// funciones
+let valorRetornado: any;
+
+/* function miFuncion(): void {
+  console.log('works!');
+} */
+/* function miFuncion(): string {
+  return 'works!';
+} */
+/* function miFuncion(): number {
+  return 10;
+} */
+/* function miFuncion(): boolean {
+  return true;
+} */
+/* function miFuncion(a: number, b: number): number {
+  return a + b;
+}
+
+valorRetornado = miFuncion(10, 5);
+console.log(valorRetornado); */
+
+// casteo
+/* let miVariable: unknown = 'abc';
+console.log(miVariable);
+console.log((miVariable as string).length);
+console.log((<string>miVariable).length); */

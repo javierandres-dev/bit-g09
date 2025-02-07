@@ -1,3 +1,4 @@
+'use strict';
 // Esto es un comentario de JavaScript de una sola línea
 
 /*
@@ -44,7 +45,7 @@ miVariable = '';
 miVariable = 'c:\\windows';
 miVariable = 'primera línea de texto\nsegunda línea de texto';
 miVariable = 'Precio:\t$9.99';
-console.log(miVariable);
+//console.log(miVariable);
 
 miVariable = 0;
 miVariable = 10;
@@ -61,6 +62,7 @@ miVariable = undefined;
 //console.log(miVariable);
 
 /* FUNCIONES */
+// función regular
 function miFuncion() {
   console.log('Pepita Pérez');
 }
@@ -87,6 +89,48 @@ function miFuncion3() {
 
 let valorRetornado = miFuncion3();
 //console.log(valorRetornado);
+
+// funcion expresada
+/* const miFnExpresada = function () {
+  console.log('Hola, soy una función expresada');
+};
+miFnExpresada(); */
+
+// función flecha
+/* const miFnFlecha = () => {
+  console.log('Hola, soy una función flecha');
+};
+miFnFlecha(); */
+
+// IIFE | Inmediately Invoked Function Expression
+/* (function () {
+  console.log('Hola, soy IIFE 1');
+})();
+
+(() => {
+  console.log('Hola, soy IIFE 2');
+})(); */
+
+/* HOISTING */
+/* miFnRegular();
+function miFnRegular() {
+  console.log('Hola, soy función regular');
+}
+
+const miFnExpresada = () => {
+  console.log('Hola, soy función expresada y flecha');
+};
+miFnExpresada(); */
+
+/* THIS */
+/* console.log(this);
+const x = this;
+console.log(this);
+function miFuncion() {
+  return this;
+}
+valorRetornado = miFuncion();
+console.log(valorRetornado); */
 
 /* OPERADORES */
 // aritméticos

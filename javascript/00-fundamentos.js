@@ -101,6 +101,9 @@ miFnExpresada(); */
   console.log('Hola, soy una función flecha');
 };
 miFnFlecha(); */
+/* const miFnFlecha = () => 'Hola, soy una función flecha';
+valorRetornado = miFnFlecha();
+console.log(valorRetornado); */
 
 // IIFE | Inmediately Invoked Function Expression
 /* (function () {
@@ -262,3 +265,84 @@ for (let i = 0; i < arreglo.length; i++) {
     console.log('hola, soy un método');
   },
 }; */
+
+/* DESTRUCTURAR */
+/* const arrNevera = ['leche', 'jamón', 'lechuga', 'tomate', 'ajo', 'queso'];
+const [a, b] = arrNevera;
+console.log(a, b); */
+/* const objNevera = {
+  a: 'leche',
+  b: 'jamón',
+  c: 'lechuga',
+  d: 'tomate',
+  e: 'ajo',
+  f: 'queso',
+};
+const { b, c, d, f } = objNevera;
+console.log(b, c, d, f); */
+
+/* REST ARGUMENTOS | SPREAD OPERATOR */
+/* const arrDamas = ['Alexandra', 'Manuela', 'Valentina'];
+const arrCaballeros = ['Brayan', 'Daniel', 'Javier', 'Juan', 'Sergio'];
+const arrTodos = [...arrDamas, ...arrCaballeros];
+console.log(arrTodos); */
+/* const arrNumeros = [2, 4, 5];
+function sumarTresNumeros(n1, n2, n3) {
+  console.log(n1 + n2 + n3);
+}
+sumarTresNumeros(...arrNumeros); */
+
+/* SÍNCRONO */
+/* function fnSincrona() {
+  console.log('hola, soy fn síncrona');
+  console.log(1);
+  console.log(2);
+  console.log(3);
+  console.log('adiós, soy fn síncrona');
+}
+fnSincrona(); */
+
+/* PROMESAS */
+/* function miPromesa() {
+  return new Promise((resolver, rechazar) => {
+    resolver('resuelto');
+    rechazar('rachazado');
+  });
+}
+const resultadoPromesa = miPromesa();
+resultadoPromesa
+.then((datos) => {
+  console.log('datos:', datos);
+})
+.catch((error) => {
+  console.log('error:', error);
+}); */
+
+/* ASÍNCRONO */
+function miPromesa() {
+  return new Promise((resolver, rechazar) => {
+    setTimeout(() => {
+      resolver('resuelto');
+      rechazar('rachazado');
+    }, 1000);
+  });
+}
+/*
+const resultadoPromesa = miPromesa();
+resultadoPromesa
+  .then((datos) => {
+    console.log('datos:', datos);
+  })
+  .catch((error) => {
+    console.log('error:', error);
+  });
+*/
+/* async function fnAsincrona() {
+  try {
+    const resultadoPromesa = await miPromesa();
+    console.log(resultadoPromesa);
+  } catch (error) {
+    console.log('error:', error);
+  }
+}
+fnAsincrona(); */

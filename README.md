@@ -48,5 +48,9 @@ identificar la identidad de género una persona (H-LGBTQ+)
 - Responsivo (375px | 768px | 1024px)
 - Desplegar con GitHub pages
 - Fecha de entrega: Lunes 3 de Febrero de 2024
-
-Nota creada desde mi nueva rama "dev".
+7. (Pronto...)
+---
+8. Su aplicación (Full Stack)
+- Describa un problema.
+- Describa la solución.
+- Plantear una aplicación web que daría solución a ese problema.

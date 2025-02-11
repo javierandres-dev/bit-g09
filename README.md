@@ -47,9 +47,13 @@ identificar la identidad de género una persona (H-LGBTQ+)
 - Archivo README.md
 - Responsivo (375px | 768px | 1024px)
 - Desplegar con GitHub pages
-- Fecha de entrega: Lunes 3 de Febrero de 2024
-7. (Pronto...)
----
+- Fecha de entrega: Lunes 3 de Febrero de 2025
+7. Crear una SPA con Angular
+- Crear repositorio llamado: bit-spa
+- Puede utilizar Bootstrap y/o hoja de estilos propia
+- Archivo README.md
+- Responsivo (375px | 768px | 1024px)
+- Fecha de entrega: Lunes 17 de Febrero de 2025
 8. Su aplicación (Full Stack)
 - Describa un problema.
 - Describa la solución.

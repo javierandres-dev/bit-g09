@@ -1,0 +1,18 @@
+.mi-caja {
+  margin-top: 2rem;
+  width: 300px;
+  height: 300px;
+  border: 2px solid green;
+}
+
+.cf-rojo {
+  background-color: red;
+}
+
+.cf-amarillo {
+  background-color: yellow;
+}
+
+.cf-naranja {
+  background-color: orange;
+}

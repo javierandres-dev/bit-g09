@@ -1,1 +1,50 @@
-<p>foundations works!</p>
+<h1>Fundamentos</h1>
+<hr />
+<section>
+  <h2>Propiedades e Interpolación de propiedades</h2>
+  <p>Hola, {{ nombreUsuario }}</p>
+  <p>{{ 1 + 1 }}</p>
+</section>
+<hr />
+<section>
+  <h2>Control de flujo</h2>
+  <h3>Condicionales</h3>
+  @if(estaLogueado){
+  <p>¡Bienvenido!</p>
+  }@else {
+  <p>Por favor inicie sesión</p>
+  }
+  <h3>Ciclos</h3>
+  <ol>
+    @for(elemento of devs; track $index){
+    <li>{{ elemento }}</li>
+    }
+  </ol>
+  <ul>
+    @for(os of ooss; track os.id){
+    <li>{{ os.name }}</li>
+    }
+  </ul>
+</section>
+<hr />
+<section>
+  <h2>Enlace de atributo/propiedad</h2>
+  <button type="button" class="btn btn-primary" [disabled]="evitarEnvio">
+    Enviar
+  </button>
+  <figure class="bg-dark text-white p-3 my-3">
+    <img [src]="urlImagen" alt="Logo BIT" class="img-fluid" />
+  </figure>
+</section>
+<hr />
+<section>
+  <h2>Manejo de eventos</h2>
+  <button type="button" class="btn btn-success" (click)="manejarClick()">
+    Haz Click
+  </button>
+  <div
+    class="mi-caja {{ colorFondo }}"
+    (mouseover)="manejarMouseover()"
+    (mouseleave)="manejarMouseleave()"
+  ></div>
+</section>

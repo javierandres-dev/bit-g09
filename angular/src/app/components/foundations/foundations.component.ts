@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { PadreComponent } from '../padre/padre.component';
 
 @Component({
   selector: 'app-foundations',
-  imports: [],
+  imports: [PadreComponent],
   templateUrl: './foundations.component.html',
   styleUrl: './foundations.component.css',
 })

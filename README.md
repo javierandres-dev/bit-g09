@@ -53,6 +53,7 @@ identificar la identidad de género una persona (H-LGBTQ+)
 - Puede utilizar Bootstrap y/o hoja de estilos propia
 - Archivo README.md
 - Responsivo (375px | 768px | 1024px)
+- Debe tener por lo menos 2 rutas
 - Fecha de entrega: Lunes 17 de Febrero de 2025
 8. Su aplicación (Full Stack)
 - Describa un problema.

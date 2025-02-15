@@ -11,15 +11,17 @@ export class FoundationsComponent {
   nombreUsuario: string = 'Pepita';
   estaLogueado: boolean = false;
   devs: string[] = [
-    'Alexandra Restrepo',
-    'Brayan Narvaez',
-    'Daniel Cruz',
+    'Manuela Álvarez',
     'Isaac Diaz',
+    'Valentina Restan',
+    'Sergio Novoa',
+    'Alexandra Restrepo',
     'Javier Sanabria',
     'Juan Aguirre',
-    'Manuela Álvarez',
-    'Sergio Novoa',
-    'Valentina Restan',
+    'Luis Muñoz',
+    'Brayan Narvaez',
+    'Alvaro Bahos',
+    'Daniel Cruz',
   ];
   ooss = [
     { id: 'win', name: 'Windows' },

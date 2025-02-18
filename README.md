@@ -53,7 +53,12 @@ identificar la identidad de género una persona (H-LGBTQ+)
 - Puede utilizar Bootstrap y/o hoja de estilos propia
 - Archivo README.md
 - Responsivo (375px | 768px | 1024px)
-- Debe tener por lo menos 2 rutas
+* Debe tener por lo menos 5 rutas
+  - Inicio
+  - Equipo
+  - PokéApi
+  - Consumir un API de tercero (libre elección)
+  - Manejar Error 404 (Page Not Found)
 - Fecha de entrega: Lunes 24 de Febrero de 2025
 8. Proyecto final: Su aplicación (Full Stack)
 - Opciones: Individual / Pareja

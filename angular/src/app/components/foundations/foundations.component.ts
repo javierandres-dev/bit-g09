@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
+import {
+  FormControl,
+  FormGroup,
+  FormsModule,
+  ReactiveFormsModule,
+} from '@angular/forms';
 import { PadreComponent } from '../padre/padre.component';
 
 @Component({
   selector: 'app-foundations',
-  imports: [PadreComponent],
+  imports: [PadreComponent, FormsModule, ReactiveFormsModule],
   templateUrl: './foundations.component.html',
   styleUrl: './foundations.component.css',
 })
@@ -32,6 +38,7 @@ export class FoundationsComponent {
   urlImagen: string =
     'https://bitinstitute.co/cms/wp-content/uploads/bit-logo.svg';
   colorFondo: string = 'cf-rojo';
+  frameworkFavorito: string = '';
 
   manejarClick() {
     console.log('Hiciste click');
@@ -43,5 +50,18 @@ export class FoundationsComponent {
 
   manejarMouseleave() {
     this.colorFondo = 'cf-naranja';
+  }
+
+  mostrarFrameworkFavorito() {
+    console.log(this.frameworkFavorito);
+  }
+
+  formLogin = new FormGroup({
+    usuario: new FormControl(''),
+    contrasenia: new FormControl(''),
+  });
+
+  manejarLogin() {
+    console.log(this.formLogin.value);
   }
 }

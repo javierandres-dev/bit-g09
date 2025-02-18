@@ -53,3 +53,35 @@
   <h2>Pase de datos</h2>
   <app-padre></app-padre>
 </section>
+<hr />
+<section>
+  <h2>Formularios</h2>
+  <div>
+    <h3>template-driven</h3>
+    <form>
+      <label
+        >Framework favorito
+        <input
+          type="text"
+          name="frameworkFavorito"
+          [(ngModel)]="frameworkFavorito"
+        />
+      </label>
+      <button type="button" (click)="mostrarFrameworkFavorito()">
+        Ver framework favorito
+      </button>
+    </form>
+  </div>
+  <div>
+    <h3>reactive</h3>
+    <form [formGroup]="formLogin" (ngSubmit)="manejarLogin()">
+      <input type="text" placeholder="Username" formControlName="usuario" />
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="contrasenia"
+      />
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </div>
+</section>

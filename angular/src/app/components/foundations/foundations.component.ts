@@ -6,6 +6,7 @@ import {
   ReactiveFormsModule,
 } from '@angular/forms';
 import { PadreComponent } from '../padre/padre.component';
+import { Credentials } from '../../interfaces/credentials';
 
 @Component({
   selector: 'app-foundations',
@@ -62,6 +63,14 @@ export class FoundationsComponent {
   });
 
   manejarLogin() {
-    console.log(this.formLogin.value);
+    const usuario = this.formLogin.value.usuario;
+    const contrasenia = this.formLogin.value.contrasenia;
+    if (typeof usuario === 'string' && typeof contrasenia === 'string') {
+      const credenciales: Credentials = {
+        nombreUsuario: usuario,
+        contrasenia: contrasenia,
+      };
+      console.log('credenciales:', credenciales);
+    }
   }
 }

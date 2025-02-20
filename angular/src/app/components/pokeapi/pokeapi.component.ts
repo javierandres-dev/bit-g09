@@ -19,7 +19,18 @@ export class PokeapiComponent implements OnInit {
   obtenerPokemons() {
     this.pokeapiService.getPokemons().subscribe((respuesta: any) => {
       this.pokemons = respuesta.results;
-      console.log(this.pokemons);
+      this.agregarImagenes();
     });
+  }
+
+  agregarImagenes() {
+    for (let i = 0; i < this.pokemons.length; i++) {
+      const pokemon = this.pokemons[i];
+      this.pokeapiService
+        .getPokemon(pokemon.url)
+        .subscribe((respuesta: any) => {
+          this.pokemons[i].img = respuesta.sprites.front_default;
+        });
+    }
   }
 }

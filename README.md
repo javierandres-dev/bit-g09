@@ -61,6 +61,7 @@ identificar la identidad de género una persona (H-LGBTQ+)
   - Manejar Error 404 (Page Not Found)
 - Fecha de entrega: Lunes 24 de Febrero de 2025
 8. Proyecto final: Su aplicación (Full Stack)
+- Crear repositorio llamado: bit-fs-frontend
 - Opciones: Individual / Pareja
 * Tema
   - Describa un problema.

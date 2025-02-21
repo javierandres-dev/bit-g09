@@ -88,4 +88,33 @@
 <hr />
 <section>
   <h2>Interfaces</h2>
+  @if(credenciales != null){
+  <p>Nombre de usuario: {{ credenciales.nombreUsuario }}</p>
+  <p>Contraseña: {{ credenciales.contrasenia }}</p>
+  }
+</section>
+<hr />
+<section>
+  <h2>Vistas aplazables/diferibles</h2>
+  @defer (on viewport) {
+  <ol>
+    @for(dev of devs; track $index){
+    <li>{{ dev }}</li>
+    }
+  </ol>
+  } @placeholder {
+  <p>placeholder</p>
+  } @loading (minimum 500ms) {
+  <p>cargando...</p>
+  }
+</section>
+<hr />
+<section>
+  <h2>Pipes</h2>
+  <p>Nombre A: {{ nombreA | uppercase }}</p>
+  <p>Nombre B: {{ nombreB | lowercase }}</p>
+  <p>Nombre C: {{ nombreC | titlecase }}</p>
+  <p>Cantidad: {{ cantidad | number : "3.2-2" }}</p>
+  <p>Fecha: {{ fecha | date : "medium" }}</p>
+  <p>Precio: {{ precio | currency }}</p>
 </section>

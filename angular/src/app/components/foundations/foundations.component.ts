@@ -7,10 +7,28 @@ import {
 } from '@angular/forms';
 import { PadreComponent } from '../padre/padre.component';
 import { Credentials } from '../../interfaces/credentials';
+import {
+  CurrencyPipe,
+  DatePipe,
+  DecimalPipe,
+  LowerCasePipe,
+  TitleCasePipe,
+  UpperCasePipe,
+} from '@angular/common';
 
 @Component({
   selector: 'app-foundations',
-  imports: [PadreComponent, FormsModule, ReactiveFormsModule],
+  imports: [
+    PadreComponent,
+    FormsModule,
+    ReactiveFormsModule,
+    UpperCasePipe,
+    LowerCasePipe,
+    TitleCasePipe,
+    DecimalPipe,
+    DatePipe,
+    CurrencyPipe,
+  ],
   templateUrl: './foundations.component.html',
   styleUrl: './foundations.component.css',
 })
@@ -40,6 +58,17 @@ export class FoundationsComponent {
     'https://bitinstitute.co/cms/wp-content/uploads/bit-logo.svg';
   colorFondo: string = 'cf-rojo';
   frameworkFavorito: string = '';
+  formLogin = new FormGroup({
+    usuario: new FormControl(''),
+    contrasenia: new FormControl(''),
+  });
+  credenciales: Credentials | null = null;
+  nombreA: string = 'pepita pérez';
+  nombreB: string = 'Pérez Pepita';
+  nombreC: string = 'PEPITA PÉREZ';
+  cantidad: number = 999.1234;
+  fecha = new Date(2025, 1, 20);
+  precio: number = 5500.34;
 
   manejarClick() {
     console.log('Hiciste click');
@@ -57,20 +86,15 @@ export class FoundationsComponent {
     console.log(this.frameworkFavorito);
   }
 
-  formLogin = new FormGroup({
-    usuario: new FormControl(''),
-    contrasenia: new FormControl(''),
-  });
-
   manejarLogin() {
     const usuario = this.formLogin.value.usuario;
     const contrasenia = this.formLogin.value.contrasenia;
     if (typeof usuario === 'string' && typeof contrasenia === 'string') {
-      const credenciales: Credentials = {
+      this.credenciales = {
         nombreUsuario: usuario,
         contrasenia: contrasenia,
       };
-      console.log('credenciales:', credenciales);
+      console.log('credenciales:', this.credenciales);
     }
   }
 }

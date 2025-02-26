@@ -8,7 +8,7 @@ servidor.use(morgan('dev'));
 servidor.use('/productos', rutasProductos);
 
 servidor.get('/', (solicitud, respuesta) => {
-  respuesta.send('raíz funciona!');
+  respuesta.json({ mensaje: 'raíz ok', data: null });
 });
 
 export default servidor;

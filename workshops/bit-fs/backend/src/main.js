@@ -1,6 +1,16 @@
+import 'dotenv/config';
+import ConexionMongodb from './conexiones/baseDeDatos.js';
 import servidor from './servidor.js';
 
-const puerto = 4100;
+const puerto = process.env.PORT;
 
-servidor.listen(puerto);
-console.log('Servidor escuchando por el puerto: ' + puerto);
+let mensaje = null;
+
+try {
+  servidor.listen(puerto);
+  mensaje = `Servidor escuchando por el puerto: ${puerto}`;
+} catch (error) {
+  mensaje = `Ocurrió un error, el servidor no está corriendo.\nError: ${error}`;
+} finally {
+  console.log(mensaje);
+}

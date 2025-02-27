@@ -5,6 +5,8 @@ import rutasProductos from './rutas/productos.js';
 const servidor = express();
 
 servidor.use(morgan('dev'));
+servidor.use(express.json());
+servidor.use(express.urlencoded({ extended: false }));
 servidor.use('/productos', rutasProductos);
 
 servidor.get('/', (solicitud, respuesta) => {

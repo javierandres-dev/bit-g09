@@ -1,5 +1,27 @@
 <main>
   <h1>productos</h1>
+  <section>
+    <button type="button" (click)="quiereCrear()">+</button>
+  </section>
+  @if(esCrear){
+  <section>
+    <form (submit)="nuevoProducto()">
+      <div>
+        <label for="">Título</label>
+        <input type="text" name="titulo" [(ngModel)]="titulo" />
+      </div>
+      <div>
+        <label for="">Precio</label>
+        <input type="number" name="precio" [(ngModel)]="precio" />
+      </div>
+      <div>
+        <label for="">Imagen</label>
+        <input type="url" name="imagen" [(ngModel)]="imagen" />
+      </div>
+      <button type="submit">crear producto</button>
+    </form>
+  </section>
+  }@else {
   <section class="productos">
     @for (producto of productos; track $index) {
     <div class="producto">
@@ -9,4 +31,5 @@
     </div>
     }
   </section>
+  }
 </main>

@@ -1,4 +1,12 @@
-<p>products works!</p>
-<button (click)="obtenerTodosLosProductos()">
-  Obtener todos los productos
-</button>
+<main>
+  <h1>productos</h1>
+  <section class="productos">
+    @for (producto of productos; track $index) {
+    <div class="producto">
+      <img src="{{ producto.imagen }}" alt="Imagen de {{ producto.titulo }}" />
+      <p class="producto-titulo">{{ producto.titulo }}</p>
+      <p class="producto-precio">{{ producto.precio }}</p>
+    </div>
+    }
+  </section>
+</main>

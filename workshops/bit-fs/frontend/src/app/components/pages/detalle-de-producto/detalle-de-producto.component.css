@@ -1,0 +1,24 @@
+.producto {
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 2rem;
+}
+
+.producto-titulo {
+  font-size: 3rem;
+  color: blueviolet;
+}
+
+.producto-precio {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+@media screen and (min-width: 768px) {
+  .producto {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}

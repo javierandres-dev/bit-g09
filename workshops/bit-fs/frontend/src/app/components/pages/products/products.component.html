@@ -1,0 +1,37 @@
+<main>
+  <h1>{{ productos.length }} productos</h1>
+  @if(esCrear){
+  <section>
+    <form (submit)="nuevoProducto()">
+      <div>
+        <label for="">Título</label>
+        <input type="text" name="titulo" [(ngModel)]="titulo" />
+      </div>
+      <div>
+        <label for="">Precio</label>
+        <input type="number" name="precio" [(ngModel)]="precio" />
+      </div>
+      <div>
+        <label for="">Imagen</label>
+        <input type="url" name="imagen" [(ngModel)]="imagen" />
+      </div>
+      <button type="submit">crear producto</button>
+    </form>
+  </section>
+  }@else {
+  <button type="button" (click)="quiereCrear()">+</button>
+  <section class="productos">
+    @for (producto of productos; track $index) {
+    <a routerLink="detalle-de-producto/{{ producto.id }}">
+      <div class="producto">
+        <img
+          src="{{ producto.imagen }}"
+          alt="Imagen de {{ producto.titulo }}"
+        />
+        <p class="producto-titulo">{{ producto.titulo }}</p>
+      </div>
+    </a>
+    }
+  </section>
+  }
+</main>

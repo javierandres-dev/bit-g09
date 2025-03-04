@@ -1,5 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { ProductsService } from '../../../services/products.service';
 
 @Component({
@@ -9,6 +9,7 @@ import { ProductsService } from '../../../services/products.service';
   styleUrl: './detalle-de-producto.component.css',
 })
 export class DetalleDeProductoComponent implements OnInit {
+  router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
   productsService = inject(ProductsService);
 
@@ -32,5 +33,27 @@ export class DetalleDeProductoComponent implements OnInit {
           });
       }
     });
+  }
+
+  actualizar() {
+    console.log(
+      'Actualizar...id:',
+      this.productoId,
+      this.titulo,
+      this.imagen,
+      this.precio
+    );
+  }
+
+  eliminar() {
+    if (this.productoId) {
+      this.productsService
+        .deleteOneProduct(this.productoId)
+        .subscribe((respuesta: any) => {
+          if (respuesta.mensaje === 'producto eliminado') {
+            this.router.navigateByUrl('/productos');
+          }
+        });
+    }
   }
 }

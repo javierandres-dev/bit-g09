@@ -66,8 +66,8 @@ class ProductosController {
 
   async eliminar(solicitud, respuesta) {
     try {
-      const resultado = await ProductosModel.delete(solicitud.params.id);
-      respuesta.json({ mensaje: 'producto eliminado', data: resultado });
+      await ProductosModel.delete(solicitud.params.id);
+      respuesta.json({ mensaje: 'producto eliminado', data: null });
     } catch (error) {
       respuesta.json({
         mensaje: 'ocurrió un error al eliminar un producto',

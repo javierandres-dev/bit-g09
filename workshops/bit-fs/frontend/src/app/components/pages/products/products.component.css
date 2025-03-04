@@ -17,11 +17,6 @@
   color: blueviolet;
 }
 
-.producto-precio {
-  font-size: 2.5rem;
-  color: blue;
-}
-
 @media screen and (min-width: 768px) {
   .productos {
     flex-direction: row;

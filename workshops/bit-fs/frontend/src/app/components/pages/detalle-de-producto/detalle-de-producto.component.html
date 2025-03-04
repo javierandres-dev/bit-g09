@@ -1,1 +1,7 @@
-<p>detalle-de-producto works!</p>
+@if (estaListo) {
+<div class="producto">
+  <img src="{{ imagen }}" alt="Imagen de {{ titulo }}" />
+  <p class="producto-titulo">{{ titulo }}</p>
+  <p class="producto-precio">{{ precio }}</p>
+</div>
+}

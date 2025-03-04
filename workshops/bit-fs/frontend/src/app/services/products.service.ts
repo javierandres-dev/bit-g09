@@ -17,4 +17,8 @@ export class ProductsService {
   getAllProducts() {
     return this.httpClient.get('http://localhost:4100/productos');
   }
+
+  getOneProduct(id: string) {
+    return this.httpClient.get(`http://localhost:4100/productos/${id}`);
+  }
 }

@@ -18,13 +18,11 @@ class ProductosController {
   async leerTodos(solicitud, respuesta) {
     try {
       const resultado = await ProductosModel.getAll();
-      console.log('resultado:', resultado);
       const arreglo = [];
       for (const producto of resultado) {
         const { _id, titulo, imagen } = producto;
         arreglo.push({ id: _id, titulo, imagen });
       }
-      console.log('arreglo:', arreglo);
       respuesta.json({
         mensaje: 'se obtuvieron todos los productos',
         data: arreglo,

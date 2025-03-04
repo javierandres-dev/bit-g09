@@ -1,8 +1,5 @@
 <main>
-  <h1>productos</h1>
-  <section>
-    <button type="button" (click)="quiereCrear()">+</button>
-  </section>
+  <h1>{{ productos.length }} productos</h1>
   @if(esCrear){
   <section>
     <form (submit)="nuevoProducto()">
@@ -22,13 +19,18 @@
     </form>
   </section>
   }@else {
+  <button type="button" (click)="quiereCrear()">+</button>
   <section class="productos">
     @for (producto of productos; track $index) {
-    <div class="producto">
-      <img src="{{ producto.imagen }}" alt="Imagen de {{ producto.titulo }}" />
-      <p class="producto-titulo">{{ producto.titulo }}</p>
-      <p class="producto-precio">{{ producto.precio }}</p>
-    </div>
+    <a routerLink="detalle-de-producto/{{ producto.id }}">
+      <div class="producto">
+        <img
+          src="{{ producto.imagen }}"
+          alt="Imagen de {{ producto.titulo }}"
+        />
+        <p class="producto-titulo">{{ producto.titulo }}</p>
+      </div>
+    </a>
     }
   </section>
   }

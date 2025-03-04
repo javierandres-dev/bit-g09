@@ -11,7 +11,6 @@ export class ProductsService {
   httpClient = inject(HttpClient);
 
   createProduct(product: Product) {
-    console.log('product:', product);
     return this.httpClient.post('http://localhost:4100/productos', product);
   }
 

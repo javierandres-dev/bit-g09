@@ -18,7 +18,7 @@
       <button type="submit">crear producto</button>
     </form>
   </section>
-  }@else {
+  }@else { @defer {
   <button type="button" (click)="quiereCrear()">+</button>
   <section class="productos">
     @for (producto of productos; track $index) {
@@ -33,5 +33,7 @@
     </a>
     }
   </section>
-  }
+  } @placeholder (minimum 5s) {
+  <p>Loading...</p>
+  }}
 </main>

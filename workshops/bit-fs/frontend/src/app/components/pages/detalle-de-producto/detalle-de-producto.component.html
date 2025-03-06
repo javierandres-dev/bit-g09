@@ -1,11 +1,29 @@
-@if (estaListo) {
+@if (estaListo) { @if (esActualizar) {
+<section>
+  <form [formGroup]="actualizarForm" (ngSubmit)="actualizarProducto()">
+    <div>
+      <label for="">Título</label>
+      <input type="text" name="titulo" formControlName="titulo" />
+    </div>
+    <div>
+      <label for="">Precio</label>
+      <input type="number" name="precio" formControlName="precio" />
+    </div>
+    <div>
+      <label for="">Imagen</label>
+      <input type="url" name="imagen" formControlName="imagen" />
+    </div>
+    <button type="submit">actualizar producto</button>
+  </form>
+</section>
+}@else {
 <div class="producto">
   <img src="{{ imagen }}" alt="Imagen de {{ titulo }}" />
   <p class="producto-titulo">{{ titulo }}</p>
   <p class="producto-precio">{{ precio }}</p>
 </div>
 <div>
-  <button type="button" (click)="actualizar()">Actualizar</button>
+  <button type="button" (click)="quiereActualizar()">Actualizar</button>
   <button type="button" (click)="eliminar()">Eliminar</button>
 </div>
-}
+} }
